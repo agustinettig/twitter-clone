@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background: #E6ECF0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header#main-header {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+
+header#main-header div.container {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header div.container ul {
+    list-style: none;
+    display: flex;
+}
+
+header#main-header div.container ul li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #667580;
+    margin-left: 30px;
+}
+
+header#main-header div.container ul li:first-child {
+    margin-left: 0;
+}
+
+header#main-header div.container ul li img {
+    margin: 0 5px 0 0;
+}
+
+header#main-header div.actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header#main-header div.actions input {
+    width: 220px;
+    border: 1px solid #E6ECF0;
+    height: 34px;
+    border-radius: 16px;
+    padding: 0 30px 0 8px;
+    font-size: 12px;    color: #667581;
+
+    background: #F5F8FA url(images/search.svg) no-repeat 190px center; 
+    
+}
+
+header#main-header div.actions img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+
+header#main-header div.actions button {
+    width: 100px;
+    height: 34px;
+    border-radius: 16px;
+    border: none;
+    background: #3BB9E3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    transition: background-color .2s;
+}
+
+header#main-header div.actions button:hover {
+    background: #0091DA;
+}
